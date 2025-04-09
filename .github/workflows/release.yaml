@@ -38,7 +38,7 @@ jobs:
     strategy:
       matrix:
         repository:
-          - integration-k8s-kind
+          - integration-k8s-kind-1
     name: Update ${{ matrix.repository }}
     runs-on: ubuntu-latest
     needs: get-tag
