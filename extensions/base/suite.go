@@ -1,6 +1,6 @@
-// Copyright (c) 2021-2023 Doc.ai and/or its affiliates.
+// Copyright (c) 2021-2025 Doc.ai and/or its affiliates.
 //
-// Copyright (c) 2023-2024 Cisco and/or its affiliates.
+// Copyright (c) 2023-2025 Cisco and/or its affiliates.
 //
 // SPDX-License-Identifier: Apache-2.0
 //
@@ -23,10 +23,10 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/networkservicemesh/gotestmd/pkg/suites/shell"
 	"github.com/bszirtes/integration-tests-1/extensions/checkout"
 	"github.com/bszirtes/integration-tests-1/extensions/logs"
 	"github.com/bszirtes/integration-tests-1/extensions/prefetch"
+	"github.com/networkservicemesh/gotestmd/pkg/suites/shell"
 )
 
 // Suite is a base suite for generating tests. Contains extensions that can be used for assertion and automation goals.

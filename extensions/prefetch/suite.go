@@ -30,8 +30,8 @@ import (
 	"github.com/kelseyhightower/envconfig"
 	"github.com/stretchr/testify/require"
 
-	"github.com/networkservicemesh/gotestmd/pkg/suites/shell"
 	"github.com/bszirtes/integration-tests-1/extensions/prefetch/images"
+	"github.com/networkservicemesh/gotestmd/pkg/suites/shell"
 )
 
 // Config is env config to setup images prefetching.
