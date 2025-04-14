@@ -26,6 +26,7 @@ import (
 	"github.com/bszirtes/integration-tests-1/extensions/checkout"
 	"github.com/bszirtes/integration-tests-1/extensions/logs"
 	"github.com/bszirtes/integration-tests-1/extensions/prefetch"
+
 	"github.com/networkservicemesh/gotestmd/pkg/suites/shell"
 )
 
