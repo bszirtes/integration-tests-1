@@ -4,12 +4,12 @@ package basic
 import (
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/integration-tests/extensions/base"
-	"github.com/networkservicemesh/integration-tests/suites/interdomain/two_cluster_configuration/dns"
-	"github.com/networkservicemesh/integration-tests/suites/interdomain/two_cluster_configuration/loadbalancer"
-	"github.com/networkservicemesh/integration-tests/suites/interdomain/two_cluster_configuration/spiffe_federation"
-	"github.com/networkservicemesh/integration-tests/suites/spire/cluster1"
-	"github.com/networkservicemesh/integration-tests/suites/spire/cluster2"
+	"github.com/bszirtes/integration-tests-1/extensions/base"
+	"github.com/bszirtes/integration-tests-1/suites/interdomain/two_cluster_configuration/dns"
+	"github.com/bszirtes/integration-tests-1/suites/interdomain/two_cluster_configuration/loadbalancer"
+	"github.com/bszirtes/integration-tests-1/suites/interdomain/two_cluster_configuration/spiffe_federation"
+	"github.com/bszirtes/integration-tests-1/suites/spire/cluster1"
+	"github.com/bszirtes/integration-tests-1/suites/spire/cluster2"
 )
 
 type Suite struct {

@@ -4,8 +4,8 @@ package features_ovs
 import (
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/integration-tests/extensions/base"
-	"github.com/networkservicemesh/integration-tests/suites/ovs"
+	"github.com/bszirtes/integration-tests-1/extensions/base"
+	"github.com/bszirtes/integration-tests-1/suites/ovs"
 )
 
 type Suite struct {

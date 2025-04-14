@@ -4,12 +4,12 @@ package external_nsc
 import (
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/integration-tests/extensions/base"
-	"github.com/networkservicemesh/integration-tests/suites/k8s_monolith/configuration/loadbalancer"
-	"github.com/networkservicemesh/integration-tests/suites/k8s_monolith/external_nsc/dns"
-	"github.com/networkservicemesh/integration-tests/suites/k8s_monolith/external_nsc/docker"
-	"github.com/networkservicemesh/integration-tests/suites/k8s_monolith/external_nsc/spiffe_federation"
-	"github.com/networkservicemesh/integration-tests/suites/spire/single_cluster"
+	"github.com/bszirtes/integration-tests-1/extensions/base"
+	"github.com/bszirtes/integration-tests-1/suites/k8s_monolith/configuration/loadbalancer"
+	"github.com/bszirtes/integration-tests-1/suites/k8s_monolith/external_nsc/dns"
+	"github.com/bszirtes/integration-tests-1/suites/k8s_monolith/external_nsc/docker"
+	"github.com/bszirtes/integration-tests-1/suites/k8s_monolith/external_nsc/spiffe_federation"
+	"github.com/bszirtes/integration-tests-1/suites/spire/single_cluster"
 )
 
 type Suite struct {

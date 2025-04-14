@@ -22,7 +22,7 @@ import (
 	"github.com/stretchr/testify/suite"
 	"go.uber.org/goleak"
 
-	"github.com/networkservicemesh/integration-tests/extensions/parallel"
+	"github.com/bszirtes/integration-tests-1/extensions/parallel"
 )
 
 type negativeSuite struct {
