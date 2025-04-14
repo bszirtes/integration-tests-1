@@ -4,7 +4,7 @@ package single_cluster
 import (
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/integration-tests/extensions/base"
+	"github.com/bszirtes/integration-tests-1/extensions/base"
 )
 
 type Suite struct {

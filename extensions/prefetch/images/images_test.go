@@ -25,7 +25,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/networkservicemesh/integration-tests/extensions/prefetch/images"
+	"github.com/bszirtes/integration-tests-1/extensions/prefetch/images"
 )
 
 var yamlFileMatch = func(s string) bool { return strings.HasSuffix(s, ".yaml") }

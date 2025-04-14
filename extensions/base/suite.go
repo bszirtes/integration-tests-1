@@ -24,9 +24,9 @@ import (
 	"strings"
 
 	"github.com/networkservicemesh/gotestmd/pkg/suites/shell"
-	"github.com/networkservicemesh/integration-tests/extensions/checkout"
-	"github.com/networkservicemesh/integration-tests/extensions/logs"
-	"github.com/networkservicemesh/integration-tests/extensions/prefetch"
+	"github.com/bszirtes/integration-tests-1/extensions/checkout"
+	"github.com/bszirtes/integration-tests-1/extensions/logs"
+	"github.com/bszirtes/integration-tests-1/extensions/prefetch"
 )
 
 // Suite is a base suite for generating tests. Contains extensions that can be used for assertion and automation goals.

@@ -1,4 +1,4 @@
-module github.com/networkservicemesh/integration-tests
+module github.com/bszirtes/integration-tests-1
 
 go 1.23
 

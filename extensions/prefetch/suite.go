@@ -31,7 +31,7 @@ import (
 	"github.com/stretchr/testify/require"
 
 	"github.com/networkservicemesh/gotestmd/pkg/suites/shell"
-	"github.com/networkservicemesh/integration-tests/extensions/prefetch/images"
+	"github.com/bszirtes/integration-tests-1/extensions/prefetch/images"
 )
 
 // Config is env config to setup images prefetching.

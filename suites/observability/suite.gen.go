@@ -4,9 +4,9 @@ package observability
 import (
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/integration-tests/extensions/base"
-	"github.com/networkservicemesh/integration-tests/suites/observability/dashboard"
-	"github.com/networkservicemesh/integration-tests/suites/observability/jaeger_and_prometheus"
+	"github.com/bszirtes/integration-tests-1/extensions/base"
+	"github.com/bszirtes/integration-tests-1/suites/observability/dashboard"
+	"github.com/bszirtes/integration-tests-1/suites/observability/jaeger_and_prometheus"
 )
 
 type Suite struct {

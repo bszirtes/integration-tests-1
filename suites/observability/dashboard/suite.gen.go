@@ -4,8 +4,8 @@ package dashboard
 import (
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/integration-tests/extensions/base"
-	"github.com/networkservicemesh/integration-tests/suites/basic"
+	"github.com/bszirtes/integration-tests-1/extensions/base"
+	"github.com/bszirtes/integration-tests-1/suites/basic"
 )
 
 type Suite struct {

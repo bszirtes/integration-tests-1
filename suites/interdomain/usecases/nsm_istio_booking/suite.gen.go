@@ -4,8 +4,8 @@ package nsm_istio_booking
 import (
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/integration-tests/extensions/base"
-	"github.com/networkservicemesh/integration-tests/suites/interdomain/suites/multiservicemesh"
+	"github.com/bszirtes/integration-tests-1/extensions/base"
+	"github.com/bszirtes/integration-tests-1/suites/interdomain/suites/multiservicemesh"
 )
 
 type Suite struct {

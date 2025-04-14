@@ -4,8 +4,8 @@ package multiservicemesh
 import (
 	"github.com/stretchr/testify/suite"
 
-	"github.com/networkservicemesh/integration-tests/extensions/base"
-	"github.com/networkservicemesh/integration-tests/suites/interdomain/two_cluster_configuration/basic"
+	"github.com/bszirtes/integration-tests-1/extensions/base"
+	"github.com/bszirtes/integration-tests-1/suites/interdomain/two_cluster_configuration/basic"
 )
 
 type Suite struct {
