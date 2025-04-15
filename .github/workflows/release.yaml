@@ -60,7 +60,7 @@ jobs:
         run: |
           for dep in github.com/${{ github.repository }} \
                      github.com/bszirtes/sdk-k8s; do
-            GOPRIVATE=github.com/bszirtes go get -u $dep@${{ needs.get-tag.outputs.tag }} || true
+            GOPRIVATE=github.com/bszirtes go get -u $dep@${{ needs.get-tag.outputs.tag }}
           done
           go mod tidy
           git diff
