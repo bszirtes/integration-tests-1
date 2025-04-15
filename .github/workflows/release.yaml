@@ -60,12 +60,8 @@ jobs:
         continue-on-error: true
         run: |
           for dep in github.com/${{ github.repository }} \
-                     github.com/networkservicemesh/sdk-kernel \
-                     github.com/networkservicemesh/sdk-k8s \
-                     github.com/networkservicemesh/sdk-sriov \
-                     github.com/networkservicemesh/sdk-vpp \
-                     github.com/networkservicemesh/sdk-ovs; do
-            GOPRIVATE=github.com/networkservicemesh go get -u $dep@${{ needs.get-tag.outputs.tag }} || true
+                     github.com/bszirtes/sdk-k8s; do
+            GOPRIVATE=github.com/bszirtes go get -u $dep@${{ needs.get-tag.outputs.tag }} || true
           done
           go mod tidy
           git diff
@@ -73,5 +69,9 @@ jobs:
         working-directory: bszirtes/${{ matrix.repository }}
         run: |
           echo Starting to update repositotry ${{ matrix.repository }}
+          git config --global user.email "nsmbot@networkservicmesh.io"
+          git config --global user.name "NSMBot"
+          git add go.mod go.sum
+          git commit -s -F /tmp/commit-message
           git checkout -b ${{ github.event.workflow_run.head_branch }}
           git push -f origin ${{ github.event.workflow_run.head_branch }}
