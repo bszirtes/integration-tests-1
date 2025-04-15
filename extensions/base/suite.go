@@ -51,7 +51,7 @@ func (s *Suite) TearDownSuite() {
 
 // SetupSuite runs all extensions
 func (s *Suite) SetupSuite() {
-	repo := "networkservicemesh/deployments-k8s"
+	repo := "bszirtes/deployments-k8s"
 	version := sha[:8]
 
 	s.checkout.Version = version
